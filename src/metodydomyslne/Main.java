@@ -13,3 +13,9 @@ interface Formula {
     }
 }
 
+class A implements Formula {
+    @Override
+    public double calculate(int a) {
+        return this.sqrt(a * 5);
+    }
+}
